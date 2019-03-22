@@ -4,9 +4,9 @@ def prime?(number)
   elsif
   number < 0 || number == 0 || number == 1
     return false
-  else
+
     return true
-   end
+   
 
 end
 
