@@ -6,9 +6,10 @@ def prime?(number)
      if number % n == 0
        return false
      else
-    return true
+       return true
   end
   end
+end
 
 
 # Add  code here!
