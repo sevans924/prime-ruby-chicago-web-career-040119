@@ -3,9 +3,11 @@ def prime?(number)
     return false
   else
   (2..(number - 1).each do |n|
-    return false if number % n == 0
-
-      return true
+     if number % n == 0
+       return false
+     else
+    return true
+  end
   end
 end
 
