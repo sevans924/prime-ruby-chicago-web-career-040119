@@ -4,11 +4,13 @@ def prime?(number)
     return false if number % n == 0
   end
       return true
-  else
+  elsif number < 0
     (number...2).each do |n|
       return false if number % n == 0
     end
     return true
+  elsif number == 0
+    return false
   end
 
 end# Add  code here!
