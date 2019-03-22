@@ -9,6 +9,8 @@ def prime?(number)
       return false if number % n == 0
     end
     return true
+  elsif number == 0
+    return false
 
   end
 
