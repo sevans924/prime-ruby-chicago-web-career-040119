@@ -1,11 +1,13 @@
 def prime?(number)
-  if number < 0 || number == 0 || number == 1
-    return false
-  elsif
-  (2..(number - 1).each do |n|
+  if (2..(number - 1).each do |n|
      return false if number % n == 0
+  elsif
+  number < 0 || number == 0 || number == 1
+    return false
+  else
+    return true
    end
-   true
+  
 end
 
 
